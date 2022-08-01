@@ -1,0 +1,70 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    background-color: #e1dfda;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+}
+
+
+
+#Home,
+#service,
+#about,
+#contact,
+#project {
+    background-color: #444c5b;
+    color: #c6a46c;
+    font-style: oblique;
+
+}
+
+#Home {
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px #f7dbad;
+    padding: 6%;
+    margin: 2%;
+    background-image: url("Background-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#service,
+#about,
+#contact,
+#project {
+    font-size: 17px;
+    margin: 2%;
+}
+
+#contact {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 2%;
+    text-align: center;
+    background-image: url("conact.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+#service,
+#about,
+#project {
+    background-image: url("background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 2%;
+}
